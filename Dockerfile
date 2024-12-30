@@ -70,6 +70,8 @@ RUN mkdir -p /opencv/build && cd /opencv/build && \
     make install && \
     ldconfig
 
+RUN echo "alias build_main='mkdir -p build && cd build && cmake .. && make && cd ..'" >> ~/.bashrc
+RUN echo "source ~/.bashrc" >> ~/.bashrc
 # Set working directory
 WORKDIR /workspace
 
