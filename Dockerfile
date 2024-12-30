@@ -44,6 +44,8 @@ RUN apt-get update && apt-get install -y \
     libeigen3-dev \
     mesa-common-dev \
     libglu1-mesa-dev \
+    guvcview \
+    nlohmann-json3-dev\
     && apt-get clean
 
 # Clone OpenCV repositories
