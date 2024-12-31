@@ -1,0 +1,10 @@
+{
+    "pixel_to_cm_ratio": 1,
+    "pyr_scale": 0.5,
+    "levels": 5,
+    "winsize": 15,
+    "iterations": 1,
+    "poly_n": 5,
+    "poly_sigma": 1.2,
+    "downsamplingFactor": 1
+}
