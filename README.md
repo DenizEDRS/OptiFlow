@@ -23,7 +23,7 @@ $sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin
 
 ## Step 2: Clone this Repo
 ### On Host:
-$ git clone 
+$ git clone https://github.com/DenizEDRS/OptiFlow.git
 
 ## Step 3: Allow GUI for container
 ### On Host:
